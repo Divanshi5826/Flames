@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+  background-color: rgb(240, 193, 194);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffe4e1;
+  padding: 10px 30px;
+}
+
+.logo-circle {
+  width: 40px;
+  height: 40px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-circle img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-box {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+#unique{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 15px 0;
+    font-family: 'Pacifico', cursive;
+
+}
+.nav-box:hover {
+  background-color: #e6e6e6;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px 20px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.place-card {
+  background-color: #c79587;
+  padding: 25px;
+  border-radius: 20px;
+  width: 600px;
+  height:550px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.place-card img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.place-card h2 {
+  margin-bottom: 12px;
+  font-size: 28px;
+  color: #333;
+}
+
+.place-card .desc {
+  font-style: italic;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+}

@@ -1,0 +1,35 @@
+span{
+    font-size: 40px;
+    color: seagreen;
+    font-family:'Courier New', Courier, monospace
+}
+h2{
+    color:aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+#unique{
+    color:rgb(65, 141, 208);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.highlight{
+    
+    color:rgb(16, 87, 87);
+}
+.color-demo{
+    color:blue;
+}
+.size-demo{
+    font-size: 20px;
+}
+.align-demo{
+        text-align: center;
+}
+.family-demo{
+    font-family: "Epilogue", sans-serif;
+}
+.weight-demo{
+    font-weight: bold;
+}
+.decoration-demo{
+    text-decoration: underline;
+}
